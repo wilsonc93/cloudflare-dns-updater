@@ -8,13 +8,15 @@ I built this script as the Dynamic DNS provider I had been using was closing dow
 Usage
 ---
 ________
-This application expects 4 parameters. Running the application with no arguements will display some help text. These can be seen below:
+This application expects 4 parameters. Running the application with no arguments will display some help text. These can be seen below:
+
+The subdomain parameter is optional. Should it not be provided, the application will assume that the domain is the DNS record to be updated.
 
 - Email - Email address registered with Cloudflare
 - API key - Cloudflare API key
 - Domain - The domain to be updated
-- Sub domain - The sub domain to be updated
+- Sub domain - The sub domain to be updated (optional)
 
 For example:
 
-`php /usr/bin/php /var/www/dns-update.php <email> <apikey> <domain> <subdomain>`
+`php /usr/bin/php /var/www/dns-update.php <email> <apikey> <domain> [<subdomain>]`
