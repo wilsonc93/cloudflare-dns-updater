@@ -17,4 +17,4 @@ The subdomain parameter is optional. Should it not be provided, the application 
 
 For example:
 
-`php /usr/bin/php /var/www/dns-update.php <email> <apikey> <domain> [<subdomain>]`
+`/usr/bin/php /var/www/dns-update.php <email> <apikey> <domain> [<subdomain>]`
